@@ -1,0 +1,76 @@
+/*Video display*/
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 70px;
+    padding-bottom: 400px;
+}
+.youtube-videos{
+    column-gap: 13px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+
+}
+.video-preview{
+    padding-bottom: 10;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.thumbnail{
+    border: none;
+    height: 150px;
+    margin-bottom: 8px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+.video-info{
+    vertical-align: top;    
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+.channel-dp{
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    width: 30px;   
+}
+.video-descr{
+    margin-left: -8px;
+}
+.video-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 0;
+   
+}
+.video-stats{
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+.channel-name{
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
