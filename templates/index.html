@@ -4,14 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/grid-styles.css">
+    <link rel="stylesheet" href="/CSS/top-bar-styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;
             500&display=swap" rel="stylesheet">
     <title>Youtube-Home</title>
 </head>
 <body>
+    <div class="container">
+        <div class="left-section">
+            <img src="/icons/hamburger-menu.svg" alt="icon" class="hamburger-menu">
+            <img src="/icons/youtube-logo.svg" alt="" class="youtube-logo">
+        </div>
+        <div class="central-section">
+            <input type="text" placeholder="Search" class="text-box">
+            <div>
+                <button class="search-btn">
+                    <img src="/icons/search.svg" alt="" class="search-icon">
+                </button>
+            </div>
+            
+            <button class="microphone-btn">
+                <img src="/icons/voice-search-icon.svg" alt="" class="mic-icon">
+            </button>
+        </div>
+        <div class="right-section">
+            <img src="/icons/upload.svg" alt="" class="upload-icon">
+            <img src="/icons/youtube-apps.svg" alt="" class="youtube-apps">
+            <img src="/icons/notifications.svg" alt="" class="notifications-icon">
+            <img src="/channels/my-channel.jpeg" alt="" class="current-user-pic">
+        </div>
+    </div>
     <div class="youtube-videos">
        <!--Video preview--> 
         <div class="video-preview">
