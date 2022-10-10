@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/grid-styles.css">
     <link rel="stylesheet" href="/CSS/top-bar-styles.css">
+    <link rel="stylesheet" href="/CSS/sidebar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;
@@ -13,7 +14,8 @@
     <title>Youtube-Home</title>
 </head>
 <body>
-    <div class="container">
+    <!--Header-->
+    <div class="header">
         <div class="left-section">
             <img src="/icons/hamburger-menu.svg" alt="icon" class="hamburger-menu">
             <img src="/icons/youtube-logo.svg" alt="" class="youtube-logo">
@@ -36,7 +38,36 @@
             <img src="/icons/notifications.svg" alt="" class="notifications-icon">
             <img src="/channels/my-channel.jpeg" alt="" class="current-user-pic">
         </div>
+        <hr>
     </div>
+    <!--Sidebar-->
+    <div class="sidebar">
+        <div class="sidebar-item">
+            <img src="/icons/home.svg" alt="Avatar" class="item-icon">
+            <p class="item-name">Home</p>
+        </div>
+        <div class="sidebar-item">
+            <img src="/icons/explore.svg" alt="Avatar" class="item-icon">
+            <p class="item-name">Explore</p>
+        </div>
+        <div class="sidebar-item">
+            <img src="/icons/subscriptions.svg" alt="Avatar" class="item-icon">
+            <p class="item-name">Subscriptions</p>
+        </div>
+        <div class="sidebar-item">
+            <img src="/icons/originals.svg" alt="Avatar" class="item-icon">
+            <p class="item-name">Originals</p>
+        </div>
+        <div class="sidebar-item">
+            <img src="/icons/youtube-music.svg" alt="Avatar" class="item-icon">
+            <p class="item-name">Youtube Music</p>
+        </div>
+        <div class="sidebar-item">
+            <img src="/icons/library.svg" alt="Avatar" class="item-icon">
+            <p class="item-name">Library</p>
+        </div>
+    </div>
+    <!--Video gridview-->
     <div class="youtube-videos">
        <!--Video preview--> 
         <div class="video-preview">

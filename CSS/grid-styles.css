@@ -1,6 +1,4 @@
 
-body{
-}
 /*Whole page grid layout*/
 .youtube-videos{
     column-gap: 13px;
@@ -9,10 +7,10 @@ body{
     row-gap: 20px;
     display: grid;
     grid-template-columns: 100px, 1fr;
-    background-color: lightgrey;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 70px;
+    background-color: rgb(247, 245, 245);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
     padding-bottom: 400px;
 
 
@@ -21,7 +19,6 @@ body{
 .video-preview{
     background-color: #fff;
     border: none;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
     padding-bottom: 10;
     padding-top: 0;
     padding-left: 0;
@@ -31,7 +28,7 @@ body{
 /*The main image on the video preview*/
 .thumbnail{
     border: none;
-    height: 150px;
+    height: 170px;
     margin-bottom: 8px;
     margin-left: 0;
     margin-right: 0;
