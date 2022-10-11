@@ -25,17 +25,29 @@
             <div>
                 <button class="search-btn">
                     <img src="/icons/search.svg" alt="" class="search-icon">
+                    <div class="tooltip">Search</div>
                 </button>
             </div>
             
             <button class="microphone-btn">
                 <img src="/icons/voice-search-icon.svg" alt="" class="mic-icon">
+                <div class="tooltip">Search with your voice</div>
             </button>
         </div>
         <div class="right-section">
-            <img src="/icons/upload.svg" alt="" class="upload-icon">
-            <img src="/icons/youtube-apps.svg" alt="" class="youtube-apps">
-            <img src="/icons/notifications.svg" alt="" class="notifications-icon">
+            <div class="upload-icon">
+                <img src="/icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-apps">
+                <img src="/icons/youtube-apps.svg" alt="">
+                <div class="tooltip">Youtube Apps</div>    
+            </div>
+            <div class="notification">
+                <div class="notification-counter">3</div>
+                <img src="/icons/notifications.svg" alt="">
+                <div class="tooltip">notifications</div>
+            </div>
             <img src="/channels/my-channel.jpeg" alt="" class="current-user-pic">
         </div>
         <hr>
@@ -43,40 +55,45 @@
     <!--Sidebar-->
     <div class="sidebar">
         <div class="sidebar-item">
-            <img src="/icons/home.svg" alt="Avatar" class="item-icon">
-            <p class="item-name">Home</p>
+            <img src="/icons/home.svg" alt="Avatar">
+            <div>Home</div>
         </div>
         <div class="sidebar-item">
-            <img src="/icons/explore.svg" alt="Avatar" class="item-icon">
-            <p class="item-name">Explore</p>
+            <img src="/icons/explore.svg" alt="Avatar">
+            <div>Explore</div>
         </div>
         <div class="sidebar-item">
-            <img src="/icons/subscriptions.svg" alt="Avatar" class="item-icon">
-            <p class="item-name">Subscriptions</p>
+            <img src="/icons/subscriptions.svg" alt="Avatar">
+            <div>Subsciptions</div>
         </div>
         <div class="sidebar-item">
-            <img src="/icons/originals.svg" alt="Avatar" class="item-icon">
-            <p class="item-name">Originals</p>
+            <img src="/icons/originals.svg" alt="Avatar">
+            <div>Originals</div>
         </div>
         <div class="sidebar-item">
-            <img src="/icons/youtube-music.svg" alt="Avatar" class="item-icon">
-            <p class="item-name">Youtube Music</p>
+            <img src="/icons/youtube-music.svg" alt="Avatar">
+            <div>Youtube Music</div>
         </div>
         <div class="sidebar-item">
-            <img src="/icons/library.svg" alt="Avatar" class="item-icon">
-            <p class="item-name">Library</p>
+            <img src="/icons/library.svg" alt="Avatar">
+            <div>Library</div>
         </div>
     </div>
     <!--Video gridview-->
     <div class="youtube-videos">
        <!--Video preview--> 
         <div class="video-preview">
-            <div>
-                <img src="/thumbnails/thumbnail-1.webp" alt="" class="thumbnail">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                    <img src="/thumbnails/thumbnail-1.webp" alt="" class="thumbnail">
+                </a>
+                <div class="video-time">14:45</div>
             </div>
             <div class="video-info">
                 <div>
-                    <img src="/channels/channel-1.jpeg" alt="" class="channel-dp">
+                    <a href="https://www.youtube.com/c/mkbhd">
+                        <img src="/channels/channel-1.jpeg" alt="" class="channel-dp">
+                    </a>
                 </div>
                 <div class="video-descr">
                     <p class="video-title">
@@ -91,14 +108,19 @@
                 </div>
             </div>
         </div>
-        <!--Video preview--> 
+        <!--Video preview 2--> 
         <div class="video-preview">
-            <div>
-                <img src="/thumbnails/thumbnail-2.webp" alt="" class="thumbnail">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                    <img src="/thumbnails/thumbnail-2.webp" alt="" class="thumbnail">
+                </a>
+                <div class="video-time">14:45</div>
             </div>
             <div class="video-info">
                 <div>
-                    <img src="/channels/channel-2.jpeg" alt="" class="channel-dp">
+                    <a href="https://www.youtube.com/c/markiplier">
+                        <img src="/channels/channel-2.jpeg" alt="" class="channel-dp">
+                    </a>
                 </div>
                 <div class="video-descr">
                     <p class="video-title">
@@ -113,14 +135,19 @@
                 </div>
             </div>
         </div>
-        <!--Video preview--> 
+        <!--Video preview 3--> 
         <div class="video-preview">
-            <div>
-                <img src="/thumbnails/thumbnail-3.webp" alt="" class="thumbnail">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+                    <img src="/thumbnails/thumbnail-3.webp" alt="" class="thumbnail">
+                </a>
+                <div class="video-time">14:45</div>
             </div>
             <div class="video-info">
                 <div>
-                    <img src="/channels/channel-3.jpeg" alt="" class="channel-dp">
+                    <a href="https://www.youtube.com/user/SSSniperWolf">
+                        <img src="/channels/channel-3.jpeg" alt="" class="channel-dp">
+                    </a>
                 </div>
                 <div class="video-descr">
                     <p class="video-title">
@@ -136,14 +163,19 @@
                 </div>
             </div>
         </div>
-         <!--Video preview--> 
+         <!--Video preview 4--> 
          <div class="video-preview">
-            <div>
-                <img src="/thumbnails/thumbnail-4.webp" alt="" class="thumbnail">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+                    <img src="/thumbnails/thumbnail-4.webp" alt="" class="thumbnail">
+                </a>
+                <div class="video-time">56:45</div>
             </div>
             <div class="video-info">
                 <div>
-                    <img src="/channels/channel-4.jpeg" alt="" class="channel-dp">
+                    <a href="https://www.youtube.com/c/veritasium">
+                        <img src="/channels/channel-4.jpeg" alt="" class="channel-dp">
+                    </a>
                 </div>
                 <div class="video-descr">
                     <p class="video-title">
@@ -158,14 +190,19 @@
                 </div>
             </div>
         </div>
-         <!--Video preview--> 
+         <!--Video preview 5--> 
          <div class="video-preview">
-            <div>
-                <img src="/thumbnails/thumbnail-5.webp" alt="" class="thumbnail">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+                    <img src="/thumbnails/thumbnail-5.webp" alt="" class="thumbnail">
+                </a>
+                <div class="video-time">14:45</div>
             </div>
             <div class="video-info">
                 <div>
-                    <img src="/channels/channel-5.jpeg" alt="" class="channel-dp">
+                    <a href="https://www.youtube.com/c/CSDojo">
+                        <img src="/channels/channel-5.jpeg" alt="" class="channel-dp">
+                    </a> 
                 </div>
                 <div class="video-descr">
                     <p class="video-title">
@@ -180,14 +217,19 @@
                 </div>
             </div>
         </div>
-         <!--Video preview--> 
+         <!--Video preview 6--> 
          <div class="video-preview">
-            <div>
-                <img src="/thumbnails/thumbnail-6.webp" alt="" class="thumbnail">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                    <img src="/thumbnails/thumbnail-6.webp" alt="" class="thumbnail">
+                </a>
+                <div class="video-time">14:45</div>
             </div>
             <div class="video-info">
                 <div>
-                    <img src="/channels/channel-6.jpeg" alt="" class="channel-dp">
+                    <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA">
+                        <img src="/channels/channel-6.jpeg" alt="" class="channel-dp">
+                    </a>
                 </div>
                 <div class="video-descr">
                     <p class="video-title">
@@ -202,14 +244,19 @@
                 </div>
             </div>
         </div>
-         <!--Video preview--> 
+         <!--Video preview 7--> 
         <div class="video-preview">
-            <div>
-                <img src="/thumbnails/thumbnail-7.webp" alt="" class="thumbnail">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+                    <img src="/thumbnails/thumbnail-7.webp" alt="" class="thumbnail">
+                </a>
+                <div class="video-time">14:45</div>
             </div>
             <div class="video-info">
                 <div>
-                    <img src="/channels/channel-7.jpeg" alt="" class="channel-dp">
+                    <a href="https://www.youtube.com/channel/UCP5tjEmvPItGyLhmjdwP7Ww">
+                        <img src="/channels/channel-7.jpeg" alt="" class="channel-dp">
+                    </a>
                 </div>
                 <div class="video-descr">
                     <p class="video-title">
@@ -224,14 +271,19 @@
                 </div>
             </div>
         </div>
-         <!--Video preview--> 
+         <!--Video preview 8--> 
         <div class="video-preview">
-            <div>
-                <img src="/thumbnails/thumbnail-8.webp" alt="" class="thumbnail">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=lFm4EM1juls">
+                    <img src="/thumbnails/thumbnail-8.webp" alt="" class="thumbnail">
+                </a>
+                <div class="video-time">14:45</div>
             </div>
             <div class="video-info">
                 <div>
-                    <img src="/channels/channel-8.jpeg" alt="" class="channel-dp">
+                    <a href="https://www.youtube.com/channel/UCHAK6CyegY22Zj2GWrcaIxg">
+                        <img src="/channels/channel-8.jpeg" alt="" class="channel-dp">
+                    </a>
                 </div>
                 <div class="video-descr">
                     <p class="video-title">
@@ -246,14 +298,19 @@
                 </div>
             </div>
         </div>
-         <!--Video preview--> 
+         <!--Video preview 9--> 
         <div class="video-preview">
-            <div>
-                <img src="/thumbnails/thumbnail-9.webp" alt="" class="thumbnail">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+                    <img src="/thumbnails/thumbnail-9.webp" alt="" class="thumbnail">
+                </a>
+                <div class="video-time">14:45</div>
             </div>
             <div class="video-info">
                 <div>
-                    <img src="/channels/channel-9.jpeg" alt="" class="channel-dp">
+                    <a href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS">
+                        <img src="/channels/channel-9.jpeg" alt="" class="channel-dp">
+                    </a>
                 </div>
                 <div class="video-descr">
                     <p class="video-title">
@@ -268,14 +325,19 @@
                 </div>
             </div>
         </div>
-         <!--Video preview--> 
+         <!--Video preview 10--> 
         <div class="video-preview">
-            <div>
-                <img src="/thumbnails/thumbnail-10.webp" alt="" class="thumbnail">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o">
+                    <img src="/thumbnails/thumbnail-10.webp" alt="" class="thumbnail">
+                </a>
+                <div class="video-time">14:45</div>
             </div>
             <div class="video-info">
                 <div>
-                    <img src="/channels/channel-10.jpeg" alt="" class="channel-dp">
+                    <a href="https://www.youtube.com/user/businessinsider">
+                        <img src="/channels/channel-10.jpeg" alt="" class="channel-dp">
+                    </a>
                 </div>
                 <div class="video-descr">
                     <p class="video-title">
@@ -292,12 +354,17 @@
         </div>
          <!--Video preview--> 
          <div class="video-preview">
-            <div>
-                <img src="/thumbnails/thumbnail-11.webp" alt="" class="thumbnail">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=0nZuYyXET3s">
+                    <img src="/thumbnails/thumbnail-11.webp" alt="" class="thumbnail">
+                </a>
+                <div class="video-time">14:45</div>
             </div>
             <div class="video-info">
                 <div>
-                    <img src="/channels/channel-11.jpeg" alt="" class="channel-dp">
+                    <a href="https://www.youtube.com/c/Destinationtips">
+                        <img src="/channels/channel-11.jpeg" alt="" class="channel-dp">
+                    </a> 
                 </div>
                 <div class="video-descr">
                     <p class="video-title">
@@ -314,12 +381,17 @@
         </div>
          <!--Video preview--> 
         <div class="video-preview">
-            <div>
-                <img src="/thumbnails/thumbnail-12.webp" alt="" class="thumbnail">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+                    <img src="/thumbnails/thumbnail-12.webp" alt="" class="thumbnail">
+                </a>
+                <div class="video-time">14:45</div>
             </div>
             <div class="video-info">
                 <div>
-                    <img src="/channels/channel-12.jpeg" alt="" class="channel-dp">
+                    <a href="https://www.youtube.com/teded">
+                        <img src="/channels/channel-12.jpeg" alt="" class="channel-dp">
+                    </a>
                 </div>
                 <div class="video-descr">
                     <p class="video-title">
